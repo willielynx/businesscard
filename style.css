@@ -11,6 +11,7 @@
     --primary-font: "Play", sans-serif;
     --image-border: 50%;
     --tertiary-color:#0f172a;
+    --body-background:#EEEBD3;
 }
 
 html {
@@ -21,15 +22,16 @@ body {
     font-family:var(--primary-font);
     font-weight: 400;
     font-style:normal;
-    background-color:#EEEBD3;
+    background-color:var(--body-background);
     color:#1e293b;
-    margin:1rem 1rem;
+    /* margin:5rem 20rem; */
+    margin: 1rem 1rem;
     display:flex;
-    /* flex-direction: column; */
+    flex:wrap;
     justify-content: center;
     text-align:center;
     border-radius:2rem;
-    padding:2rem;
+    padding:1rem;
 }
 
 header {
@@ -63,6 +65,7 @@ a:hover {
 .info>h2,h3 {
     text-decoration: underline;
 }
+
 
 .card {
     margin: 10px;
